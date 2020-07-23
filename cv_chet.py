@@ -6,7 +6,7 @@ import math
 from pylab import*
 
 #1、read the original picture
-Image = cv2.imread('2.bmp',1)
+Image = cv2.imread('1.bmp',1)
 image = cv2.cvtColor(Image,cv2.COLOR_BGR2GRAY)
 img = np.array(image,dtype='float64')
 plt.imshow(img,cmap = 'gray')
